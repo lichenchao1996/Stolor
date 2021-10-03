@@ -167,7 +167,7 @@ em, i {
 p {
     font-size: 1em;
     color: #333;
-    margin: 1.65em 0;
+    margin: 0.8em 0;
 }
 
 hr {
@@ -178,8 +178,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #484848;
     font-weight: 700;
     display: block;
-    margin: 1.7em 0;
-    line-height: 1.3em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -189,32 +187,44 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
     font-size: 2.5em;
+    margin: 1.2em 0;
+    line-height: 1.3em;
 }
 
 h2 {
     font-size: 1.75em;
+    margin: 1.2em 0;
+    line-height: 1.3em;
 }
 
 h3 {
     font-size: 1.35em;
+    margin: 1em 0;
+    line-height: 1.3em;
 }
 
 h4 {
     font-size: 1.1em;
+    margin: 1em 0;
+    line-height: 1.2em;
 }
 
 h5 {
     font-size: 1.05em;
+    margin: 0.9em 0;
+    line-height: 1.1em;
 }
 
 h6 {
     font-size: 1em;
+    margin: 0.9em 0;
+    line-height: 1.1em;
 }
 
 code, p code {
     padding: 3px 5px;
     margin: 0;
-    font-size: 85%;
+    font-size: 96%;
     background-color: rgba(0, 0, 0, 0.04);
     border-radius: 3px;
 }
@@ -232,7 +242,7 @@ img {
 }
 
 blockquote {
-    font-size: 0.8em;
+    font-size: 0.92em;
     display: block;
     border-width: 1px 0;
     border-style: solid;
@@ -261,12 +271,12 @@ blockquote:after {
     content: "#blockquote" attr(cite);
     display: block;
     text-align: right;
-    font-size: 0.875em;
+    font-size: 0.9em;
     color: #e74c3c;
 }
 
 blockquote p {
-    font-size: 0.8em;
+    font-size: 0.96em;
 }
 
 blockquote p, blockquote pre {
@@ -448,6 +458,10 @@ blockquote ul, blockquote ol {
     margin-bottom: 2em;
 }
 
+/* .posti .post-content {
+    font-size: 1em;
+} */
+
 .posti h3:before {
     position: absolute;
     left: -20px;
@@ -505,7 +519,7 @@ blockquote ul, blockquote ol {
 }
 
 .posti pre {
-    margin: 2em 0;
+    margin: 0.8em 0 1em 0;
 }
 
 .posti pre code {
@@ -554,7 +568,7 @@ blockquote ul, blockquote ol {
 #comment-form {
     display: block;
     margin: 2em 0;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.55);
     border-radius: 4px;
     overflow: hidden;
     border: 1px solid #E1E1E1;
@@ -603,7 +617,7 @@ blockquote ul, blockquote ol {
     min-height: 120px;
     line-height: 1.825;
     display: block;
-    background: #ecf0f1;
+    background: rgba(236, 240, 241, 0.2);
     overflow: auto;
 }
 
