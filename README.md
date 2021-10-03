@@ -1,8 +1,8 @@
 ## Stolor
 
-Story & color
+Story & color  故事 + 颜色
 
-Demo: [HilloMyFriend](wwww.vrainstorm.com).
+My Bolg: [HilloMyFriend](https://vrainstorm.link).
 
 ### 预览图
 
@@ -13,7 +13,6 @@ Demo: [HilloMyFriend](wwww.vrainstorm.com).
 #### config.php
 
 ```
-
 // on: 开启
 // off&其他: 关闭
 
@@ -33,8 +32,7 @@ $GLOBALS['isRSS'] = 'off';
 $GLOBALS['isDiffColorCard'] = 'off';
 
 // 背景图设置. 填入图片 URL 地址，留空为关闭
-// $GLOBALS['style_BG'] = 'xxx/xxx.jpg';
-$GLOBALS['style_BG'] = 'http://www.xxx.com/xxx/xxx.jpg';
+// $GLOBALS['style_BG'] = '';
 
 // 背景图片不透明度
 $GLOBALS['style_BG_opacity'] = 0.24;
@@ -95,3 +93,5 @@ $GLOBALS['style_card_opacity'] = 0.77;
 #### 感谢
 
 本主题基于 [森の色/Yumoe](https://yumoe.com/): [story](https://github.com/txperl/Story-for-Typecho) by [Trii Hsia](https://github.com/txperl), 感谢原作者做出这么棒的主题!!!
+
+祝大家食用愉快 ~ ~
