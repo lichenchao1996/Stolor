@@ -63,13 +63,13 @@ if ($GLOBALS['style_BG'] != '') {
                         <span class="b" style="background: rgb(<?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>)">A</span>
                         <span class="b" style="background: rgb(<?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>)">L</span>
                         <a href="<?php $this->options->siteUrl(); $red = rand(1, 254); $green = rand(1, 254); $blue = rand(1, 254); ?>">
-                            <span id="headerLogIndex" class="w" style="color: rgb(<?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)" onmouseover="mouseOverColor('#headerLogIndex', <?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)" onmouseout="mouseOutColor('#headerLogIndex', <?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)">O</span>
+                            <span id="headerLogoIndex" class="w" style="color: rgb(<?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)" onmouseover="mouseOverColor('#headerLogoIndex', <?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)" onmouseout="mouseOutColor('#headerLogoIndex', <?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)">O</span>
                         </a>
                         <span class="b" style="background: rgb(<?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>)">H</span>
                         <span class="b" style="background: rgb(<?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>)">A</span>
                         <!-- 标题结束 -->
                         <a id="btn-menu" href="javascript:isMenu();">
-                            <span id="headerLogMenu" class="w" style="color: rgb(<?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>)" onmouseover="mouseOverColor('#headerLogMenu', <?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)" onmouseout="mouseOutColor('#headerLogMenu', <?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)">@</span>
+                            <span id="headerLogoMenu" class="w" style="color: rgb(<?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>, <?php echo rand(1, 254) ?>)" onmouseover="mouseOverColor('#headerLogoMenu', <?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)" onmouseout="mouseOutColor('#headerLogoMenu', <?php echo $red ?>, <?php echo $green ?>, <?php echo $blue ?>)">@</span>
                         </a>
                         <a href="javascript:isMenu1();">
                             <?php if ($GLOBALS['isIconNav'] == 'on') : ?>

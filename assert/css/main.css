@@ -317,6 +317,8 @@ blockquote ul, blockquote ol {
 }
 
 .header-logo {
+    position: fixed;
+    z-index: 1;
     font-weight: 300;
 }
 
