@@ -312,13 +312,18 @@ blockquote ul, blockquote ol {
     background-color: transparent;
 }
 
+.row {
+    margin-bottom: 1.2em;
+}
+
 .logo {
     margin: 2em 0 2em 2em;
 }
 
 .header-logo {
     position: fixed;
-    z-index: 1;
+    z-index: 100;
+    transform: none;
     font-weight: 300;
 }
 
@@ -823,7 +828,7 @@ blockquote ul, blockquote ol {
 
 #menu-page {
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 100;
     margin: 26px 0 0 168px;
 }
@@ -846,7 +851,8 @@ blockquote ul, blockquote ol {
 
 #search-box {
     display: none;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
     margin-left: 252px;
     overflow: hidden;
 }
@@ -1065,6 +1071,6 @@ blockquote ul, blockquote ol {
 @media (max-width: 460px) {
     #search-box {
         margin-left: 0 !important;
-        margin-top: 22px;
+        margin-top: 26px;
     }
 }
