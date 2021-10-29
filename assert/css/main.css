@@ -221,6 +221,20 @@ h6 {
     line-height: 1.1em;
 }
 
+table thead tr {
+    text-align: center !important;
+    white-space: nowrap;
+}
+
+table tbody tr {
+    white-space: nowrap;
+    /* white-space: pre-wrap; */
+}
+
+.table-area {
+    overflow: auto;
+}
+
 code, p code {
     padding: 3px 5px;
     margin: 0;

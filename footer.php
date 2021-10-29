@@ -52,8 +52,13 @@
         footerColor();
         // post中categories&tags单独渲染颜色样式
         categoriesAndTagsColor();
-
+        // 表格超长滚动
+        tableScroll();
     });
+
+    function tableScroll() {
+        $('table').wrap('<div class="table-area"></div>');
+    }
 
     function footerColor() {
         let currentRed = Math.round(Math.random() * 255);
