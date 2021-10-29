@@ -221,6 +221,11 @@ h6 {
     line-height: 1.1em;
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 1.1em 0;
+}
+
 table thead tr {
     text-align: center !important;
     white-space: nowrap;
