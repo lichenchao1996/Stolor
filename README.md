@@ -2,11 +2,11 @@
 
 Story & color  故事 + 颜色
 
-My Bolg: [HilloMyFriend](https://vrainstorm.link).
+My Bolg: [Hillo My Friend](https://vrainstorm.link).
 
 ### 预览图
 
-![screenshot](screenshot.jpg)
+暂无
 
 ### 主题的一些食用说明(绝大部分摘自原作者)
 
